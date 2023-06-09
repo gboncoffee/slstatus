@@ -64,8 +64,8 @@ static const char unknown_str[] = "n/a";
  * wifi_perc           WiFi signal in percent          interface name (wlan0)
  */
 static const struct arg args[] = {
-	/* function format          argument */
-	{ battery_perc, " BAT %s%% ", "BAT1" },
-	{ keymap,       " %s ",       NULL },
-	{ datetime,     " %s",        "%a %b %d %H:%M" },
+	/* function format        argument */
+	{ battery_perc, " %s%% ", "BAT1" },
+	{ keymap,       " %s ",   NULL },
+	{ datetime,     " %s",    "%a %b %d %H:%M" },
 };
